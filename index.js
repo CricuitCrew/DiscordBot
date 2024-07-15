@@ -3,7 +3,7 @@ const client = new Discord.Client(
     {intents:["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "MESSAGE_CONTENT", "GUILD_SCHEDULED_EVENTS"]}
 );
 
-client.login("MTI2MjE3MjQwNzMyNjU3Njc3MQ.GugpcO.fGMOAXPXFde888uVer-4YpjRD1gQsYAS7GtfN8")
+client.login(process.env.token)
 
 
 
