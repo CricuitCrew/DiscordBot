@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, MessageActionRow, MessageButton } = require('
 const cron = require('node-cron');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.DirectMessages] });
 
-const TOKEN = 'YOUR_DISCORD_BOT_TOKEN';
+const TOKEN = 'process.env.token';
 const SETUP_CHANNEL_ID = '1262171803858636990';
 const TIMEOUT = 10 * 60 * 1000; // 10 minutes in milliseconds
 
